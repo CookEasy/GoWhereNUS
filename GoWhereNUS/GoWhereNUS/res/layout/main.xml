@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    style="@drawable/button_default_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_top">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#2ea3fe"/>
+
+        <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/titlebar_menu_selector"
+                    android:id="@+id/title_bar_left_menu"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:src="@drawable/name" 
+                android:layout_gravity="center|center_vertical"
+                />
+
+              <Button
+                  android:id="@+id/title_bar_right_menu"
+                  android:layout_width="28dp"
+                  android:layout_height="28dp"
+                  android:layout_gravity="right|center_vertical"
+                  android:layout_marginRight="10dp"
+                  android:background="@drawable/chat"
+                  android:onClick="addRoute" 
+                  android:visibility="gone"/>
+
+        </FrameLayout>
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#ebebeb"/>
+
+    </LinearLayout>
+
+    
+        <ViewFlipper
+		android:id="@+id/viewFlipper" 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" 
+    	android:gravity="center"
+		android:layout_gravity="center"
+		android:addStatesFromChildren="true"
+		android:layout_centerInParent="true" >
+
+        <FrameLayout
+            android:id="@+id/main_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </FrameLayout>
+
+        <fragment
+            android:id="@+id/fragment1"
+            android:name="com.is3261.Fragments.CommentFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        
+    </ViewFlipper>
+
+</LinearLayout>

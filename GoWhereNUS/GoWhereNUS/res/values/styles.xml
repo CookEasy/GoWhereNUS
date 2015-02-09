@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fragment_text">
+        <item name="android:textColor">#ffacacac</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat" />
+    
+	<style name="anim_menu_bottombar">
+        <item name="android:windowEnterAnimation">@animator/menu_bottombar_in</item>
+        <item name="android:windowExitAnimation">@animator/menu_bottombar_out</item>
+    </style>
+    
+</resources>

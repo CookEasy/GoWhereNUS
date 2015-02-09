@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ResideMenuDemo</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="categories">
+        <item>Housing</item>
+        <item>CCA</item>
+        <item>Career</item>
+        <item>Selling</item>
+        <item>Academic</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="locations">
+        <item >LT1</item>
+        <item >LT2</item>
+        <item >LT3</item>
+        <item >LT4</item>
+        <item >LT5</item>
+        <item >LT6</item>
+        <item >LT7</item>
+        <item >LT8</item>
+        <item >LT9</item>
+        <item >LT10</item>
+        <item >LT11</item>
+        <item >LT12</item>
+        <item >LT13</item>
+        <item >LT14</item>
+        <item >LT15</item>
+        <item >LT16</item>
+        <item >LT17</item>
+        <item >LT18</item>
+        <item >LT19</item>
+        <item >LT20</item>
+        <item >LT21</item>
+        <item >LT22</item>
+        <item >LT23</item>
+        <item >LT24</item>
+        <item >LT25</item>
+        <item >LT26</item>
+        <item >LT27</item>
+        <item >LT28</item>
+        <item >LT29</item>
+        <item >LT30</item>
+        <item >LT31</item>
+        <item >LT32</item>
+        <item >computing1</item>
+        <item >computing2</item>
+        <item >computing1 Seminar room 1</item>
+        <item >computing1 Seminar room 2</item>
+        <item >UTown SRC</item>
+        <item >S14</item>
+        <item >S13</item>
+        <item >S12</item>
+        <item >S11</item>
+        <item >S10</item>
+        <item >S9</item>
+        <item >PGP</item>
+        <item >Utown</item>
+        <item >CLB</item>
+        <item >SOC</item>
+        <item >COM1 SR 1</item>
+        <item >Utown SRC</item>
+        <item >engine canteen</item>
+        <item >biz canteen</item>
+        <item >arts canteen</item>
+        <item >YIH</item>
+        <item >UHC</item>
+        <item >KR MRT</item>
+        <item >SCIENCE</item>
+        <item >BIZ</item>
+        <item >OPP UHC</item>
+        <item >OPP YIH</item>
+        <item >Computer Centre</item>
+        <item >MUSEUM</item>
+        
+    </string-array>
+
+</resources>

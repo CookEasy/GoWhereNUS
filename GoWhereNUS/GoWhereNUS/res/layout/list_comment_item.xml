@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp" >
+
+    <ImageView
+        android:id="@+id/userPic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/personal_circle" />
+
+    <RelativeLayout
+        android:id="@+id/commentContent"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignTop="@+id/userPic"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@+id/userPic"
+        android:background="@drawable/timeline_content" >
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="5dp"
+            android:rating="2.0"
+            android:stepSize="1.0"
+            android:numStars="5" />
+
+        <TextView
+            android:id="@+id/userComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar1"
+            android:layout_centerVertical="true"
+            android:text="User comments"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/commentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginRight="7dp"
+            android:text="time"
+            android:textColor="#A4A4A4"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
